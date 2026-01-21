@@ -1,0 +1,7 @@
+package com.wipro.crm.util;
+
+public class CustomerNotFoundException extends Exception {
+    public CustomerNotFoundException(String message) {
+        super(message);
+    }
+}
